@@ -1,0 +1,20 @@
+def check_number(num):
+  """
+  Checks if a number is even or odd.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    A string indicating whether the number is even or odd.
+  """
+  if num % 2 == 0:
+    return f"{num} is an Even number."
+  else:
+    return f"{num} is an Odd number."
+
+# Example usage
+print(check_number(4))  # Output: 4 is an Even number.
+print(check_number(7))  # Output: 7 is an Odd number.
+print(check_number(-4)) # Output: -4 is an Even number.
+print(check_number(0))  # Output: 0 is an Even number.
